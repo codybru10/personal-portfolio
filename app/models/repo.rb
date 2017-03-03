@@ -1,3 +1,3 @@
-class Repo < ActiveRecord::based
+class Repo < ActiveRecord::Base
 
 end

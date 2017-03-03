@@ -1,1 +1,12 @@
 <h1>edit</h1>
+
+<%= form_for @about do |f| %>
+
+
+   <%= f.label :description %>
+   <%= f.text_field :description %>
+
+   <%= f.submit class: "btn link-btn black" %>
+
+
+ <% end %>

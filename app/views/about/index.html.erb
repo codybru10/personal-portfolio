@@ -1,7 +1,12 @@
 <h1>about</h1>
 
-<div class="card">
-  <p>
-    this is something about me yeah just typing because i need to take up some space to see what happens with this card
-  </p>
-</div>
+<% @abouts.each do |about| %>
+  <div class="card">
+    <p>
+    <%= about.description %>
+    </p>
+    <% if admin_signed_in? %>
+      <%= link_to "Edit", edit_about_path(about) %>
+    <% end %>
+  </div>
+<% end %>

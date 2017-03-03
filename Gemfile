@@ -12,6 +12,7 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise'
 gem 'httparty'
 gem 'materialize-sass'
+gem 'rails_admin', '~> 1.0'
 
 group :development, :test do
   gem 'byebug', platform: :mri
