@@ -1,24 +1,38 @@
-# README
+# Personal Profile
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### _My Personal Profile_
 
-Things you may want to cover:
+#### By _**Cody Brubaker**_
 
-* Ruby version
 
-* System dependencies
+## Setup/Installation Requirements
 
-* Configuration
+_Run in your web browser. To run Personal Profile, in command line run:_
 
-* Database creation
+```
+$ git clone https://github.com/codybru10/personal-profile
+$ cd personal-profile
+$ bundle install
+$ rake db:setup
+$ rails server
+$ rails c
+$ About.create(:description => "write your about me")
+Go to localhost:3000 in your browser to view.
+To edit about description, go to localhost:3000/administrator and login.
+```
 
-* Database initialization
+_Contact me Github at codybru10 or cody.brubaker@gmail.com_
 
-* How to run the test suite
+## Technologies Used
 
-* Services (job queues, cache servers, search engines, etc.)
+* _Ruby_
+* _Rails_
+* _Materialize_
+* _Postgres_
 
-* Deployment instructions
 
-* ...
+### License
+
+This software is licensed under the MIT license.
+
+Copyright (c) 2016 **Cody Brubaker**
