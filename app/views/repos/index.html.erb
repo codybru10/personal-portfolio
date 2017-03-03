@@ -4,7 +4,7 @@
 
   <% @repos.each do |repo| %>
     <p class="collection-item">
-      <%= repo['name'] %>
+      <%= link_to repo['name'], 'https://github.com/codybru10/'+repo['name'] %>
     </p>
   <% end %>
 
