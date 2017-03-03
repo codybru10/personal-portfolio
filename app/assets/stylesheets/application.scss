@@ -14,3 +14,33 @@
  *= require_self
  */
 @import "materialize";
+
+body {
+  background: url('background.jpg') fixed;
+  background-size: cover;
+}
+.center-text {
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  font-size: 80px;
+}
+
+.intro1 {
+  font-size: 65px;
+  text-shadow: 2px 4px black;
+}
+
+.intro2 {
+  font-size: 50px;
+  text-shadow: 2px 4px black;
+}
+
+.splash {
+  margin-top: 30%;
+}
+
+.card {
+  width: 40%;
+  padding-left: 7px;
+}
