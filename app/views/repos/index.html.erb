@@ -1,0 +1,11 @@
+<h1>projects</h1>
+
+<div class="collection">
+
+  <% @repos.each do |repo| %>
+    <p class="collection-item">
+      <%= repo['name'] %>
+    </p>
+  <% end %>
+
+</div>

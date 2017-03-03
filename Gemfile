@@ -11,6 +11,7 @@ gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'devise'
 gem 'httparty'
+gem 'materialize-sass'
 
 group :development, :test do
   gem 'byebug', platform: :mri
@@ -21,6 +22,7 @@ group :development, :test do
   gem 'capybara'
   gem "factory_girl_rails", "~> 4.0"
   gem 'simplecov', require: false
+  gem 'dotenv-rails'
 end
 
 group :development do
